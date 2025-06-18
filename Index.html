@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Phone Web Controller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📱 Phone Web Controller</h1>
+  <input id="ip" type="text" placeholder="Enter phone IP + port (e.g. 192.168.1.5:5000)">
+  <div>
+    <button onclick="sendCommand('flash')">Flashlight</button>
+    <button onclick="sendCommand('volume_up')">Volume +</button>
+    <button onclick="sendCommand('volume_down')">Volume -</button>
+    <button onclick="sendCommand('vibrate')">Vibrate</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
